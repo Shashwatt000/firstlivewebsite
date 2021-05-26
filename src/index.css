@@ -1,0 +1,89 @@
+*{
+  margin: 0; padding: 0; box-sizing: border-box;
+ 
+}
+
+body{
+  background-color:pink;
+  font-weight: 300;
+  text-align: center;
+  margin: 50px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.main_div{
+  color:yellow;
+  height: 100vh;
+  width: 100%;
+  box-shadow: crimson;
+  background-origin: padding-box;
+  border-radius: 2px ;
+  box-sizing: content-box;
+  border: tomato;
+  border-color: black;
+  background-color: darkcyan;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.center_div{
+
+  width: 25%;
+  height: 80vh;
+  background-color: darkgray;
+  border-radius: 16px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.active_class{
+  color: blueviolet;
+  border-bottom: 1px solid red;
+}
+.navbar{
+  background-color: darkgrey;
+}
+.navbar a {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+.navbar-brand {
+  color: beige !important;
+}
+.menu_active{
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+.navbar a:hover{
+  color: yellowgreen !important;
+}
+#header{
+  width: 100%;
+  height: 80vh;
+  margin-top: 70px;
+}
+#header .brand-name{
+  color: brown;
+}
+#header .btn-get-started{
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: o.5s;
+  color: black;
+  border: 2px solid blanchedalmond;
+  
+}
+#header .btn-get-started:hover{
+  background-color: brown;
+  color: beige;
+}
+.header-img{
+  text-align: right;
+}
